@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "rctorches",
+  "version": "${version}",
+
+  "name": "RightClick Torches",
+  "description": "Simple mod that lets you place torches with right-clicking with a pickaxe",
+  "authors": [
+    "jackowski626"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "LGPLv3",
+  "icon": "assets/rctorches/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "io.github.jackowski626.rctorches.RCtorches"
+    ]
+  },
+  "mixins": [
+    "rctorches.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
